@@ -1,0 +1,55 @@
+[
+    {
+      "id": "menemen",
+      "title": "Klasik Menemen",
+      "description": "Domates, biber ve yumurta ile pratik kahvaltı",
+      "category": ["Kahvaltı", "Vejetaryen"],
+      "servings": 2,
+      "prepTime": 10,
+      "cookTime": 12,
+      "images": [
+        "https://images.unsplash.com/photo-1604908553889-58f3c0e4f3b1?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1490818387583-1baba5e638af?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "ingredients": [
+        "3 adet olgun domates",
+        "2 adet yeşil biber",
+        "3 yumurta",
+        "2 yemek kaşığı zeytinyağı",
+        "Tuz, karabiber"
+      ],
+      "steps": [
+        "Biberleri doğrayıp zeytinyağında 2 3 dakika sotele.",
+        "Doğranmış domatesi ekleyip suyunu çekene kadar pişir.",
+        "Yumurtaları ekleyip karıştırarak kıvam aldır. Tuz ve biberle bitir."
+      ],
+      "nutrition": { "calories": 180, "protein": 12, "fat": 10, "carbs": 8 }
+    },
+    {
+      "id": "zeytinyagli-fasulye",
+      "title": "Zeytinyağlı Taze Fasulye",
+      "description": "Soğuk servis edilen klasik bir yaz yemeği",
+      "category": ["Ana yemek", "Zeytinyağlı"],
+      "servings": 4,
+      "prepTime": 20,
+      "cookTime": 40,
+      "images": [
+        "https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=1200&auto=format&fit=crop"
+      ],
+      "ingredients": [
+        "700 g taze fasulye",
+        "2 orta boy soğan",
+        "3 domates",
+        "1 çay bardağı zeytinyağı",
+        "1 tatlı kaşığı şeker",
+        "Tuz"
+      ],
+      "steps": [
+        "Soğanı yemeklik doğra, zeytinyağında pembeleştir.",
+        "Fasulyeyi ekle, karıştır. Domates, tuz ve şekeri ilave et.",
+        "Kısık ateşte yumuşayana kadar pişir. Soğutarak servis et."
+      ],
+      "nutrition": { "calories": 220, "protein": 6, "fat": 14, "carbs": 18 }
+    }
+  ]
+  

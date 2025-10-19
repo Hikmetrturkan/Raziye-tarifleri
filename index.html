@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anne Tarifleri</title>
+  <meta name="description" content="Annemin yemek tarifleri. Malzemeler, adım adım anlatım ve fotoğraflar." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">🧑‍🍳 Anne Tarifleri</div>
+      <nav id="filters" class="tags" aria-label="Kategoriler"></nav>
+      <label class="search" aria-label="Tarif ara">
+        <span>🔎</span>
+        <input id="search" type="search" placeholder="Tarif, malzeme, kategori..." />
+      </label>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="toolbar">
+      <div class="muted">Toplam <span id="count">0</span> tarif</div>
+      <div class="actions">
+        <button class="btn ghost" id="btnExport">JSON dışa aktar</button>
+        <button class="btn" id="btnImport">JSON içe aktar</button>
+        <input type="file" id="importFile" accept="application/json" class="sr-only" />
+      </div>
+    </div>
+    <section id="grid" class="grid" aria-live="polite"></section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Anne Tarifleri. GitHub Pages ile ücretsiz barındırma.
+    </div>
+  </footer>
+
+  <dialog id="recipeModal" aria-label="Tarif detayları">
+    <div class="closebar"><button id="closeModal">Kapat ✕</button></div>
+    <article class="modal" id="modalContent" itemscope itemtype="https://schema.org/Recipe"></article>
+  </dialog>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
+
+
+
+
